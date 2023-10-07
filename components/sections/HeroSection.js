@@ -8,7 +8,6 @@ export default function HeroSection() {
       <Image className="absolute bottom-0" src="/img/curve.png" width={1920} height={1080} />
       <Image src="/img/hero-image.png" width={1920} height={1080} />
       <h1>TEST</h1>
-      321
     </div>
   )
 }
