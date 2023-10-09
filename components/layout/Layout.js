@@ -1,6 +1,8 @@
 import dynamic from 'next/dynamic'
 import Head from 'next/head'
 
+import FooterSection from './FooterSection'
+
 const Navigation = dynamic(() => import('@/components/layout/Navigation'), { ssr: false })
 
 export default function Layout({ children, title = null }) {
@@ -21,12 +23,11 @@ export default function Layout({ children, title = null }) {
         <link rel="icon" href="/favicons/fav-228.ico" sizes="228x228" />
       </Head>
       <div className={`font-sans antialiased flex flex-col ${dev ? 'debug-screens' : ''}`}>
-        {/* Navigation here */}
         <Navigation />
 
         {children}
 
-        {/* Footer here */}
+        <FooterSection />
       </div>
     </>
   )
