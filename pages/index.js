@@ -1,9 +1,9 @@
 import AboutSection from '@/components/sections/AboutSection'
 import CardSection from '@/components/sections/CardSection'
+import FooterSection from '@/components/sections/FooterSection'
 import GallerySection from '@/components/sections/GallerySection'
 import HeroSection from '@/components/sections/HeroSection'
 import Layout from '@/layout/Layout'
-import FooterSection from '@/components/sections/FooterSection'
 
 export default function Home() {
   return (
