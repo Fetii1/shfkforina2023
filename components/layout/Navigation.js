@@ -19,7 +19,7 @@ export default function Navigation() {
   const [menu, setMenu] = useState(false)
 
   return (
-    <div>
+    <>
       <div className="w-full h-6 bg-red-500"></div>
       <div className="w-full shadow-md">
         <div className="w-auto mx-10 flex flex-row justify-between flex-wrap">
@@ -51,6 +51,6 @@ export default function Navigation() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }

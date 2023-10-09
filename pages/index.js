@@ -3,6 +3,7 @@ import CardSection from '@/components/sections/CardSection'
 import GallerySection from '@/components/sections/GallerySection'
 import HeroSection from '@/components/sections/HeroSection'
 import Layout from '@/layout/Layout'
+import FooterSection from '@/components/sections/FooterSection'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <CardSection />
       <AboutSection />
       <GallerySection />
+      <FooterSection />
     </Layout>
   )
 }

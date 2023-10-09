@@ -1,6 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import ImageComp from '../ImageComp'
+import Image from 'next/image'
+import Button from '../Button'
 
 function GallerySection(props) {
   return (
@@ -13,17 +15,29 @@ function GallerySection(props) {
           backgroundSize: 'contain',
         }}
       ></div>
-      <div className="bg-yellow-200/40 h-96">
-        <div className="container">
-          <div className="w-full flex justify-center h-auto">
-            <p className="text-3xl font-bold md:text-5xl border-b-4 pt-10 pb-3 border-orange-500 ">
-              Galeria
-            </p>
+      <div className="bg-yellow-200/40 h-auto">
+        <div className="w-full flex justify-center h-auto">
+          <p className="text-3xl font-bold md:text-5xl border-b-4 pt-10 pb-3 border-orange-500 ">
+            Galeria
+          </p>
+        </div>
+        <div className="container mt-20">
+          <div className="w-full items-center flex flex-col lg:flex-row  gap-5 justify-center">
+            <ImageComp className="translate-x-5" />
           </div>
-          <div className="w-full h-auto flex flex-col md:flex-col">
-            <ImageComp />
+          <div className="w-full flex justify-center my-10 h-auto">
+            <Button className="text-center" text="Më shumë" />
           </div>
         </div>
+        <div
+          className="w-full bg-white h-5"
+          style={{
+            backgroundImage: `url("/img/wave.png")`,
+            rotate: '180deg',
+            backgroundRepeat: 'repeat-x',
+            backgroundSize: 'contain',
+          }}
+        ></div>
       </div>
     </div>
   )
