@@ -20,7 +20,7 @@ export default function Navigation() {
 
   return (
     <>
-      <div className="w-full h-6 bg-red-500"></div>
+      <div className="w-full h-6 bg-shfk-red"></div>
       <div className="w-full shadow-md">
         <div className="w-auto mx-10 flex flex-row justify-between flex-wrap">
           <div className="flex w-full md:w-1/3 flex-row py-6 justify-between">

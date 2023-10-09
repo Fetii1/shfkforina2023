@@ -4,7 +4,7 @@ import ImageComp from '../ImageComp'
 import Image from 'next/image'
 import Button from '../Button'
 
-function GallerySection(props) {
+function GallerySection() {
   return (
     <div className="w-full mt-10 h-auto">
       <div
@@ -15,9 +15,9 @@ function GallerySection(props) {
           backgroundSize: 'contain',
         }}
       ></div>
-      <div className="bg-yellow-200/40 h-auto">
+      <div className="bg-shfk-yellow h-auto">
         <div className="w-full flex justify-center h-auto">
-          <p className="text-3xl font-bold md:text-5xl border-b-4 pt-10 pb-3 border-orange-500 ">
+          <p className="text-3xl font-bold md:text-5xl border-b-4 pt-10 pb-3 border-shfk-orange ">
             Galeria
           </p>
         </div>

@@ -14,10 +14,11 @@ module.exports = {
         sans: ['var(--font-nunito)', ...config.fontFamily.sans],
       },
       colors: {
-        gray: {
-          ...config.colors.gray,
-          200: '#F4F4F4',
-        },
+        'shfk-yellow': '#FAF8D4',
+        'shfk-green': '#32C156',
+        'shfk-blue': '#5856D6',
+        'shfk-red': '#FF2D53',
+        'shfk-orange': '#FF971D',
       },
     },
   },
