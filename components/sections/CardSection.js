@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Card from './Card'
+import Card from '../Card'
 
 export default function CardSection() {
   const items = [
@@ -22,7 +22,7 @@ export default function CardSection() {
   ]
 
   return (
-    <div className="flex flex-col justify-center w-auto h-auto mx-3 md:-mt-48 md:z-10 md:mx-10 md:space-x-4 md:flex-row">
+    <div className="flex flex-col justify-center w-auto h-auto md:h-10 md:items-end mx-3 md:z-10 lg:mx-20 md:space-x-4 md:flex-row">
       {items.map((item, index) => (
         <Card key={index} src={item.src} text={item.text} className={item.className} />
       ))}
