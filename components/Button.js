@@ -1,9 +1,8 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 function Button(props) {
   return (
-    <button className="bg-red-600 w-auto my-10 text-white font-bold rounded-full px-5 py-2 uppercase">
+    <button className="bg-red-950 w-auto my-10 text-white font-bold rounded-full px-5 py-2 uppercase">
       {props.text}
     </button>
   )

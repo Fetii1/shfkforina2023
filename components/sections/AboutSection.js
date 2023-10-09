@@ -1,12 +1,13 @@
-import React from 'react'
 import Image from 'next/image'
+import React from 'react'
+
 import Button from '../Button'
 
 export default function AboutSection() {
   return (
     <div className="container">
       <div className="w-full h-auto flex my-20 justify-center">
-        <p className="text-3xl md:text-5xl px-8 pb-3 font-bold border-b-4 border-blue-900">
+        <p className="text-3xl md:text-5xl px-8 pb-3 font-bold border-b-4 border-blue-950">
           Rreth Nesh
         </p>
       </div>

@@ -7,17 +7,17 @@ export default function CardSection() {
     {
       src: '/svg/hat-image.svg',
       text: 'Mësim Bashkëkohor',
-      className: 'bg-blue-500',
+      className: 'bg-blue-950',
     },
     {
       src: '/svg/book-image.svg',
       text: 'Bibliotekë',
-      className: 'bg-red-500',
+      className: 'bg-red-950',
     },
     {
       src: '/svg/ball-image.svg',
       text: 'Fushë Sporti',
-      className: 'bg-yellow-500',
+      className: 'bg-orange-950',
     },
   ]
 

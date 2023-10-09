@@ -14,9 +14,25 @@ module.exports = {
         sans: ['var(--font-nunito)', ...config.fontFamily.sans],
       },
       colors: {
-        gray: {
-          ...config.colors.gray,
-          200: '#F4F4F4',
+        red: {
+          ...config.colors.red,
+          950: '#E8373D',
+        },
+        green: {
+          ...config.colors.green,
+          950: '#32C156',
+        },
+        yellow: {
+          ...config.colors.yellow,
+          950: '#FAF8D4',
+        },
+        blue: {
+          ...config.colors.blue,
+          950: '#5856D6',
+        },
+        orange: {
+          ...config.colors.orange,
+          950: '#FF971D',
         },
       },
     },
