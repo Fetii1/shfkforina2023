@@ -1,8 +1,7 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import ImageComp from '../ImageComp'
-import Image from 'next/image'
+
 import Button from '../Button'
+import ImageComp from '../ImageComp'
 
 function GallerySection() {
   return (
@@ -15,9 +14,9 @@ function GallerySection() {
           backgroundSize: 'contain',
         }}
       ></div>
-      <div className="bg-shfk-yellow h-auto">
+      <div className="bg-yellow-950 h-auto">
         <div className="w-full flex justify-center h-auto">
-          <p className="text-3xl font-bold md:text-5xl border-b-4 pt-10 pb-3 border-shfk-orange ">
+          <p className="text-3xl font-bold md:text-5xl border-b-4 pt-10 pb-3 border-orange-950">
             Galeria
           </p>
         </div>

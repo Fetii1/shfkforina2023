@@ -14,11 +14,26 @@ module.exports = {
         sans: ['var(--font-nunito)', ...config.fontFamily.sans],
       },
       colors: {
-        'shfk-yellow': '#FAF8D4',
-        'shfk-green': '#32C156',
-        'shfk-blue': '#5856D6',
-        'shfk-red': '#FF2D53',
-        'shfk-orange': '#FF971D',
+        red: {
+          ...config.colors.red,
+          950: '#E8373D',
+        },
+        green: {
+          ...config.colors.green,
+          950: '#32C156',
+        },
+        yellow: {
+          ...config.colors.yellow,
+          950: '#FAF8D4',
+        },
+        blue: {
+          ...config.colors.blue,
+          950: '#5856D6',
+        },
+        orange: {
+          ...config.colors.orange,
+          950: '#FF971D',
+        },
       },
     },
   },
