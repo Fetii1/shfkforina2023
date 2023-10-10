@@ -46,7 +46,7 @@ export default function Navigation() {
               <NavItem href="/">Ballina</NavItem>
               <NavItem href="/about">Rreth Nesh</NavItem>
               <NavItem href="/galeria">Galeria</NavItem>
-              <NavItem href="/planprogrami">Plan Programi</NavItem>
+              <NavItem href="/Planprogrami">Plan Programi</NavItem>
             </ul>
           </div>
         </div>

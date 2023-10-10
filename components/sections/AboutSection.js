@@ -24,7 +24,7 @@ export default function AboutSection() {
             fillore “Përparimi” fsh. Çegran. Shkolla më 29 maj 2014 u pavarësua dhe mori emrin
             Shkolla Fillore “FORINA”.
           </p>
-          <Button text="Lexo më shumë" />
+          <Button className={'mt-10'} text="Lexo më shumë" />
         </div>
         <div
           className="w-full flex justify-center lg:ml-6 lg:mt-7"
@@ -39,6 +39,7 @@ export default function AboutSection() {
             src="/img/forina.png"
             width={500}
             height={500}
+            alt={'ShkollaForinë'}
           />
         </div>
       </div>
