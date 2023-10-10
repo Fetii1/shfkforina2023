@@ -79,17 +79,17 @@ export default function ImageSection() {
   return (
     <div className="container">
       <div className="grid px-3 mt-20 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-20 w-full">
-        {galleryImages.map((gImage, index) => (
+        {galleryImages.map((image, index) => (
           <div
             key={index}
             className="translate-x-3 translate-y-3 md:translate-x-0 md:translate-y-0 h-full w-full bg-blue-950"
           >
             <Image
               key={index}
-              src={gImage.src}
-              width={gImage.width}
-              height={gImage.height}
-              alt={gImage.alt}
+              src={image.src}
+              width={image.width}
+              height={image.height}
+              alt={image.alt}
               className="h-80 -translate-x-3 w-full object-cover -translate-y-3"
             />
           </div>
