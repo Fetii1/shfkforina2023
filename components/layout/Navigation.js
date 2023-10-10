@@ -45,7 +45,7 @@ export default function Navigation() {
             <ul className="flex text-base font-bold w-full p-5 flex-col md:w-auto md:p-0 md:flex-row ">
               <NavItem href="/">Ballina</NavItem>
               <NavItem href="/about">Rreth Nesh</NavItem>
-              <NavItem href="/galeria">Galeria</NavItem>
+              <NavItem href="/gallery">Galeria</NavItem>
               <NavItem href="/planprogrami">Plan Programi</NavItem>
             </ul>
           </div>
