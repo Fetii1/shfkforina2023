@@ -33,9 +33,9 @@ function ImageComp() {
   return (
     <>
       {photos.map((photo, index) => (
-        <div key={index} className="w-auto h-full lg:h-64 bg-blue-800">
+        <div key={index} className="w-full h-64 object-cover bg-blue-800">
           <Image
-            className="h-full w-full object-cover lg:w-auto -translate-x-2 -translate-y-2"
+            className="h-full w-full object-cover -translate-x-2 -translate-y-2"
             src={photo.src}
             width={photo.width}
             height={photo.height}
