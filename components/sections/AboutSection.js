@@ -8,7 +8,6 @@ import Content from '../Content'
 export default function AboutSection() {
   return (
     <div className="container">
-      {/* <HeaderTitle /> */}
       <div className="mt-20 flex flex-col lg:flex-row">
         <div className="w-full translate-y-5 lg:text-left flex flex-col text-center px-3 md:px-10 h-auto md:lg-0">
           <Content>
