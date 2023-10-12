@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 import Button from '../Button'
@@ -12,7 +13,7 @@ export default function AboutSection() {
         </p>
       </div>
       <div className="flex flex-col  lg:flex-row">
-        <div className="w-full lg:text-left text-center px-10 h-auto mb-20 md:lg-0">
+        <div className="w-full lg:text-left text-center px-2 md:px-10 h-auto mb-5 md:mb-20 md:lg-0">
           <p className="text-gray-800">
             Shkolla fillore në fshatin Forinë ka filluar të funksionoj në vitin 2006, shkollë kjo e
             cila ka funksionuar shumë vite më parë por për një kohë të gjatë ka qenë pasive.
@@ -24,23 +25,26 @@ export default function AboutSection() {
             fillore “Përparimi” fsh. Çegran. Shkolla më 29 maj 2014 u pavarësua dhe mori emrin
             Shkolla Fillore “FORINA”.
           </p>
-          <Button text="Lexo më shumë" />
+          <Link href={'/About'}>
+            <Button text="Lexo më shumë" />
+          </Link>
         </div>
-        <div
-          className="w-full flex justify-center lg:ml-6 lg:mt-7"
-          style={{
-            backgroundImage: `url("../img/lines.png")`,
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'bottom middle',
-          }}
-        >
-          <Image
-            className="-translate-x-0 -translate-y-5 lg:-translate-x-6 lg:-translate-y-6"
-            src="/img/forina.png"
-            width={500}
-            height={500}
-            alt="ShkollaForinë"
-          />
+        <div className="w-full md:my-0 my-10 flex justify-center h-auto">
+          <div
+            className="max-w-auto flex lg:justify-center lg:translate-x-0 lg:translate-y-0 translate-x-5 translate-y-5 md:ml-6 md:mt-7"
+            style={{
+              backgroundImage: `url("../img/lines.png")`,
+              backgroundRepeat: 'no-repeat',
+            }}
+          >
+            <Image
+              className="min-w-auto lg:max-w-lg object-contain -translate-x-5 -translate-y-5"
+              src="/img/forina.png"
+              width={500}
+              height={500}
+              alt={'ShkollaForina'}
+            />
+          </div>
         </div>
       </div>
     </div>
