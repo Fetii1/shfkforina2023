@@ -10,6 +10,4 @@ function Button({ text, className }) {
   )
 }
 
-Button.propTypes = {}
-
 export default Button

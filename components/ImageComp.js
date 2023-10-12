@@ -31,7 +31,7 @@ function ImageComp() {
     },
   ]
   return (
-    <>
+    <div className="w-full grid md:grid-cols-2 lg:grid-cols-4 gap-12">
       {photos.map((photo, index) => (
         <div key={index} className="w-full h-64 object-cover bg-blue-800">
           <Image
@@ -43,7 +43,7 @@ function ImageComp() {
           />
         </div>
       ))}
-    </>
+    </div>
   )
 }
 

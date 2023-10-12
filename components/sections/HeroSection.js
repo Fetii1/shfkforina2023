@@ -5,8 +5,14 @@ import React from 'react'
 export default function HeroSection() {
   return (
     <div className="w-full relative">
-      <Image className="absolute bottom-0" src="/img/curve.png" width={1920} height={1080} />
-      <Image src="/img/hero-image.png" width={1920} height={1080} />
+      <Image
+        className="absolute bottom-0"
+        src="/img/curve.png"
+        width={1920}
+        height={1080}
+        alt={'wave svg'}
+      />
+      <Image src="/img/hero-image.png" width={1920} height={1080} alt={'Hero Image'} />
     </div>
   )
 }
