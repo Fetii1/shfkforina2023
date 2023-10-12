@@ -20,15 +20,11 @@ function GallerySection() {
             Galeria
           </p>
         </div>
-        <div className="container mt-20">
-          <div className="w-full items-center flex flex-col lg:flex-row  gap-5 justify-center">
-            <ImageComp className="translate-x-5" />
-          </div>
-          <div className="w-full flex justify-center my-10 h-auto">
-            <Link href={'/Gallery'}>
-              <Button className="text-center" text="Më shumë" />
-            </Link>
-          </div>
+        <div className="container flex flex-col items-center my-20">
+          <ImageComp />
+          <Link className="mt-20" href="/gallery">
+            <Button className="text-center" text="Më shumë" />
+          </Link>
         </div>
         <div
           className="w-full bg-white h-5 -mt-1 sm:mt-0"
@@ -42,5 +38,4 @@ function GallerySection() {
     </div>
   )
 }
-
 export default GallerySection
