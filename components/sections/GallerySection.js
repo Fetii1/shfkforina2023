@@ -26,7 +26,7 @@ function GallerySection() {
             <ImageComp className="translate-x-5" />
           </div>
           <div className="w-full flex justify-center my-10 h-auto">
-            <Link href={'/Gallery'}>
+            <Link href={'/gallery'}>
               <Button className="text-center" text="Më shumë" />
             </Link>
           </div>
