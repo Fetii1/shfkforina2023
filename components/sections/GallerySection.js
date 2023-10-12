@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 import Button from '../Button'
@@ -25,7 +26,9 @@ function GallerySection() {
             <ImageComp className="translate-x-5" />
           </div>
           <div className="w-full flex justify-center my-10 h-auto">
-            <Button className="text-center" text="Më shumë" />
+            <Link href={'/Gallery'}>
+              <Button className="text-center" text="Më shumë" />
+            </Link>
           </div>
         </div>
         <div
@@ -41,7 +44,5 @@ function GallerySection() {
     </div>
   )
 }
-
-GallerySection.propTypes = {}
 
 export default GallerySection

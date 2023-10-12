@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 import Button from '../Button'
@@ -24,7 +25,9 @@ export default function AboutSection() {
             fillore “Përparimi” fsh. Çegran. Shkolla më 29 maj 2014 u pavarësua dhe mori emrin
             Shkolla Fillore “FORINA”.
           </p>
-          <Button className={'mt-10'} text="Lexo më shumë" />
+          <Link href={'/About'}>
+            <Button className={'mt-10'} text="Lexo më shumë" />
+          </Link>
         </div>
         <div
           className="w-full flex justify-center lg:ml-6 lg:mt-7"
