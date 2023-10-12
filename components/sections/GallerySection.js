@@ -23,7 +23,7 @@ function GallerySection() {
         </div>
         <div className="container flex flex-col items-center my-20">
           <ImageComp />
-          <Link className="mt-20" href="/Gallery">
+          <Link className="mt-20" href="/gallery">
             <Button className="text-center" text="Më shumë" />
           </Link>
         </div>
@@ -40,5 +40,4 @@ function GallerySection() {
     </div>
   )
 }
-
 export default GallerySection

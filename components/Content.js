@@ -13,7 +13,7 @@ export default function Content({ children, hasImage, className }) {
           alt="About Us Image"
         />
       )}
-      <p className="px-0 md:px-5 text-sm md:text-lg text-gray-600">{children}</p>
+      <p className="px-5 md:px-2 text-sm md:text-lg text-gray-600">{children}</p>
     </div>
   )
 }

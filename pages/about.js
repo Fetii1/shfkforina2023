@@ -59,7 +59,6 @@ export default function About() {
         <br />
         <br />
       </Content>
-      {/* <AboutText /> */}
     </Layout>
   )
 }

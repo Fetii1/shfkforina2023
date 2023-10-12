@@ -8,6 +8,4 @@ function Button({ text }) {
   )
 }
 
-Button.propTypes = {}
-
 export default Button
