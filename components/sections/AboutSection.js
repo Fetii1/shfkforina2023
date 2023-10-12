@@ -39,6 +39,7 @@ export default function AboutSection() {
             src="/img/forina.png"
             width={500}
             height={500}
+            alt="ShkollaForinë"
           />
         </div>
       </div>
