@@ -42,6 +42,4 @@ function GallerySection() {
   )
 }
 
-GallerySection.propTypes = {}
-
 export default GallerySection
