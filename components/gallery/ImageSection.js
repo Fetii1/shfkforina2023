@@ -85,7 +85,6 @@ export default function ImageSection() {
             className="translate-x-3 translate-y-3 md:translate-x-0 md:translate-y-0 h-full w-full bg-blue-950"
           >
             <Image
-              key={index}
               src={image.src}
               width={image.width}
               height={image.height}
