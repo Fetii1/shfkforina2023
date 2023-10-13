@@ -8,7 +8,7 @@ export default function PlanProgramSection() {
     <>
       <div className="w-full md:w-auto flex flex-col items-center md:mx-20 my-10 h-auto">
         <Image src="/img/12.jpeg" width={500} height={500} alt="ShkollaForinë" />
-        <p className="text-base pt-14 px-5 md:px-0">
+        <p className="text-base mt-8 px-5 md:px-0">
           Plan programi, vetëevaluimi dhe orari mund të shkarkohen këtu.
         </p>
       </div>
