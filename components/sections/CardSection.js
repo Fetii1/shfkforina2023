@@ -1,3 +1,5 @@
+import React from 'react'
+
 import Card from '../Card'
 
 export default function CardSection() {
@@ -20,7 +22,7 @@ export default function CardSection() {
   ]
 
   return (
-    <div className="flex flex-col justify-center w-auto h-auto md:h-28 lg:h-20 xl:h-0 xl:-mt-8 md:items-end mx-3 md:z-10 lg:mx-20 md:space-x-4 md:flex-row">
+    <div className="flex flex-col justify-center container mx-auto md:h-1 md:items-end md:z-10 md:space-x-4 md:flex-row">
       {items.map((item, index) => (
         <Card key={index} src={item.src} text={item.text} className={item.className} />
       ))}

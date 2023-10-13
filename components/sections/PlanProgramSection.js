@@ -1,13 +1,13 @@
 import Image from 'next/image'
 
-import Tabela from '../Tabela'
+import Tabela from '@/components/Tabela'
 
 export default function PlanProgramSection() {
   return (
     <>
-      <div className="w-full container md:w-auto flex flex-col items-center md:mx-20 my-10 h-auto">
+      <div className="container mx-auto flex flex-col items-center my-10">
         <Image
-          className="w-1/2 object-cover"
+          className="w-1/2 h-96 object-cover"
           src="/img/12.jpeg"
           width={500}
           height={500}

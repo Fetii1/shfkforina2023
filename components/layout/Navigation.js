@@ -22,8 +22,8 @@ export default function Navigation() {
     <>
       <div className="w-full h-6 bg-red-950"></div>
       <div className="w-full shadow-md">
-        <div className="w-auto mx-3 sm:mx-10 flex flex-row justify-between flex-wrap">
-          <div className="flex w-full md:w-1/3 flex-row py-6 justify-between">
+        <div className="w-auto py-5 mx-3 sm:mx-10 flex flex-row justify-between flex-wrap">
+          <div className="flex w-full md:w-1/3 flex-row py-3 justify-between">
             <div className="w-full">
               <Link href={'/'}>
                 <p className="font-bold text-gray-800 text-2xl pl-5">SH.Q.K Forina</p>
@@ -44,7 +44,7 @@ export default function Navigation() {
               menu ? ' flex' : ' hidden'
             }`}
           >
-            <ul className="flex text-lg font-bold w-full p-5 flex-col md:w-auto md:p-0 md:flex-row ">
+            <ul className="flex lg:text-lg font-bold w-full p-5 flex-col md:w-auto md:p-0 md:flex-row ">
               <NavItem href="/">Ballina</NavItem>
               <NavItem href="/about">Rreth Nesh</NavItem>
               <NavItem href="/gallery">Galeria</NavItem>

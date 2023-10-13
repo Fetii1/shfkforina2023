@@ -1,11 +1,11 @@
 import Link from 'next/link'
 
-import Button from '../Button'
-import ImageComp from '../ImageComp'
+import Button from '@/components/Button'
+import ImageComp from '@/components/ImageComp'
 
 function GallerySection() {
   return (
-    <div className="w-full mt-10 h-auto">
+    <div className="w-full mt-10">
       <div
         className="w-full h-5 -mb-1 sm:mb-0"
         style={{
@@ -13,8 +13,8 @@ function GallerySection() {
           backgroundRepeat: 'repeat-x',
         }}
       ></div>
-      <div className="bg-yellow-950 h-auto">
-        <div className="w-full flex justify-center h-auto">
+      <div className="bg-yellow-960">
+        <div className="w-full flex justify-center">
           <p className="text-3xl font-bold md:text-5xl pt-10 border-b-4 md:pt-10 pb-3 border-orange-950">
             Galeria
           </p>

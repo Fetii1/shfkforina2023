@@ -1,19 +1,19 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-import Button from '../Button'
-import Content from '../Content'
+import Button from '@/components/Button'
+import Content from '@/components/Content'
 
 export default function AboutSection() {
   return (
-    <div className="container">
-      <div className="w-full flex justify-center h-auto">
-        <p className="text-3xl font-bold md:text-5xl mt-14 pt-10 border-b-4 md:pt-10 pb-3 border-blue-950">
+    <div className="container py-32">
+      <div className="w-full flex justify-center">
+        <p className="text-3xl font-bold md:text-5xl md:mb-12 mb-6 pt-10 border-b-4 pb-3 border-blue-950">
           Rreth Nesh
         </p>
       </div>
-      <div className="mt-10 md:mt-20 flex flex-col lg:flex-row">
-        <div className="w-full translate-y-5 lg:text-left flex flex-col text-center px-3 md:px-10 h-auto md:lg-0">
+      <div className="md:mt-10 mt-2 flex flex-col lg:flex-row">
+        <div className="w-full translate-y-5 lg:text-left flex flex-col text-center px-3 md:px-10 md:lg-0">
           <Content>
             Shkolla fillore në fshatin Forinë ka filluar të funksionoj në vitin 2006, shkollë kjo e
             cila ka funksionuar shumë vite më parë por për një kohë të gjatë ka qenë pasive.
@@ -32,7 +32,7 @@ export default function AboutSection() {
             />
           </Link>
         </div>
-        <div className="w-full md:my-0 my-10 flex justify-center h-auto">
+        <div className="w-full md:my-0 my-10 flex justify-center">
           <div
             className="w-auto flex lg:justify-center lg:translate-x-0 lg:translate-y-0 translate-x-5 translate-y-5 md:ml-6 md:mt-7"
             style={{
