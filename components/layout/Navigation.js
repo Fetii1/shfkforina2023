@@ -6,7 +6,7 @@ const NavItem = ({ children, href }) => {
   return (
     <li className="w-full md:w-auto md:mr-6">
       <Link
-        className="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent"
+        className="block hover:text-blue-800 py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent"
         href={href}
       >
         {children}
