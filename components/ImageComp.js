@@ -1,7 +1,6 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable jsx-a11y/alt-text */
 import Image from 'next/image'
-import React from 'react'
 
 function ImageComp() {
   const photos = [

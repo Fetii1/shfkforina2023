@@ -1,4 +1,3 @@
-import React from 'react'
 import SVG from 'react-inlinesvg'
 
 function Card({ className, src, text }) {

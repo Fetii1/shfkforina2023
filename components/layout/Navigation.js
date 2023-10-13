@@ -25,7 +25,9 @@ export default function Navigation() {
         <div className="w-auto mx-3 sm:mx-10 flex flex-row justify-between flex-wrap">
           <div className="flex w-full md:w-1/3 flex-row py-6 justify-between">
             <div className="w-full">
-              <p className="font-bold text-gray-800 text-2xl pl-5">SH.Q.K Forina</p>
+              <Link href={'/'}>
+                <p className="font-bold text-gray-800 text-2xl pl-5">SH.Q.K Forina</p>
+              </Link>
             </div>
             <div className="w-1/4 flex justify-end md:hidden pr-5">
               <label htmlFor="menu-toggle" className="cursor-pointer">

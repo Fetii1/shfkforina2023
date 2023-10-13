@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Image from 'next/image'
-import React from 'react'
 
 export default function HeroSection() {
   return (
