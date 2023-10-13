@@ -8,7 +8,12 @@ import Content from '../Content'
 export default function AboutSection() {
   return (
     <div className="container">
-      <div className="mt-20 flex flex-col lg:flex-row">
+      <div className="w-full flex justify-center h-auto">
+        <p className="text-3xl font-bold md:text-5xl mt-14 pt-10 border-b-4 md:pt-10 pb-3 border-blue-950">
+          Rreth Nesh
+        </p>
+      </div>
+      <div className="mt-10 md:mt-20 flex flex-col lg:flex-row">
         <div className="w-full translate-y-5 lg:text-left flex flex-col text-center px-3 md:px-10 h-auto md:lg-0">
           <Content>
             Shkolla fillore në fshatin Forinë ka filluar të funksionoj në vitin 2006, shkollë kjo e
@@ -21,7 +26,7 @@ export default function AboutSection() {
             fillore “Përparimi” fsh. Çegran. Shkolla më 29 maj 2014 u pavarësua dhe mori emrin
             Shkolla Fillore “FORINA”.
           </Content>
-          <Link className="py-5" href="/about">
+          <Link className="my-14 lg:my-5" href="/about">
             <Button text="Lexo më shumë" />
           </Link>
         </div>
