@@ -8,7 +8,7 @@ export default function Content({ children, hasImage, className }) {
         <Image
           className={className}
           src="/img/1.jpeg"
-          width={500}
+          width={800}
           height={500}
           alt="About Us Image"
         />

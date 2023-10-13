@@ -27,7 +27,10 @@ export default function AboutSection() {
             Shkolla Fillore “FORINA”.
           </Content>
           <Link className="my-14 lg:my-5" href="/about">
-            <Button text="Lexo më shumë" />
+            <Button
+              className={'hover:bg-blue-950 transition duration-200 hover:-translate-y-1'}
+              text="Lexo më shumë"
+            />
           </Link>
         </div>
         <div className="w-full md:my-0 my-10 flex justify-center h-auto">

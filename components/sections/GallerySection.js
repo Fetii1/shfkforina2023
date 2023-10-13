@@ -23,7 +23,10 @@ function GallerySection() {
         <div className="container flex flex-col items-center my-20">
           <ImageComp />
           <Link className="mt-20" href="/gallery">
-            <Button className="text-center" text="Më shumë" />
+            <Button
+              className={'hover:bg-blue-950 transition duration-200 hover:-translate-y-1'}
+              text="Më shumë"
+            />
           </Link>
         </div>
         <div

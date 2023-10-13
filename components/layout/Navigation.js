@@ -42,7 +42,7 @@ export default function Navigation() {
               menu ? ' flex' : ' hidden'
             }`}
           >
-            <ul className="flex text-base font-bold w-full p-5 flex-col md:w-auto md:p-0 md:flex-row ">
+            <ul className="flex text-lg font-bold w-full p-5 flex-col md:w-auto md:p-0 md:flex-row ">
               <NavItem href="/">Ballina</NavItem>
               <NavItem href="/about">Rreth Nesh</NavItem>
               <NavItem href="/gallery">Galeria</NavItem>

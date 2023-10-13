@@ -7,7 +7,7 @@ function Card({ className, src, text }) {
       <div className={`${className} rounded-xl`}>
         <div className="w-full h-auto py-14 flex flex-col items-center justify-center">
           <SVG src={src} width={100} height={100} />
-          <p className="text-xl md:text-2xl lg:text-3xl font-bold text-white">{text}</p>
+          <p className="text-xl md:text-2xl xl:text-4xl font-bold text-white">{text}</p>
         </div>
       </div>
     </div>
