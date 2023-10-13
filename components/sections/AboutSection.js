@@ -6,7 +6,7 @@ import Content from '@/components/Content'
 
 export default function AboutSection() {
   return (
-    <div className="container py-32">
+    <div className="container pt-36">
       <div className="w-full flex justify-center">
         <p className="text-3xl font-bold md:text-5xl md:mb-12 mb-6 pt-10 border-b-4 pb-3 border-blue-950">
           Rreth Nesh
