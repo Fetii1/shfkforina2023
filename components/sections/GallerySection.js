@@ -13,9 +13,9 @@ function GallerySection() {
           backgroundRepeat: 'repeat-x',
         }}
       ></div>
-      <div className="bg-yellow-960">
+      <div className="bg-yellow-1000">
         <div className="w-full flex justify-center">
-          <p className="text-3xl font-bold md:text-5xl border-b-4 pb-3 mt-24 mb-16 border-orange-950">
+          <p className="text-3xl font-bold md:text-5xl border-b-4 pb-3 mt-24 mb-16 border-yellow-950">
             Galeria
           </p>
         </div>

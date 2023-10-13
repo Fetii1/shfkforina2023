@@ -1,7 +1,8 @@
 User-agent: Googlebot
-Disallow: /nogooglebot/
+Disallow: 
 
 User-agent: *
 Allow: /
+Disallow: /cgi-bin/
 
-Sitemap: https://mywebsite.com/sitemap.xml
+Sitemap: https://www.shfkforina.edu.mk/sitemap.xml

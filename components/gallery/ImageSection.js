@@ -1,4 +1,4 @@
-import { gallery } from 'content/gallery'
+import { gallery } from 'content/home'
 import Image from 'next/image'
 import React from 'react'
 

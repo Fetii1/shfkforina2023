@@ -17,8 +17,8 @@ function MyApp({ Component, pageProps }) {
           type: 'website',
           locale: 'en_EN',
           url: '',
-          site_name: 'Next Starter',
-          description: 'Website description here',
+          site_name: 'SH.Q.K Forina',
+          description: 'SH.Q.K Forinë',
         }}
       />
       <div className={`${nunito.variable} font-sans`}>

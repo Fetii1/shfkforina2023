@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable jsx-a11y/alt-text */
-import { homeImages } from 'content/homeImages'
+import { homeImages } from 'content/home'
 import Image from 'next/image'
 
 function ImageComp() {

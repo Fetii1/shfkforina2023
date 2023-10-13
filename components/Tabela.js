@@ -1,4 +1,4 @@
-import { programdata } from 'content/programdata'
+import { programdata } from 'content/home'
 
 import Button from '@/components/Button'
 
