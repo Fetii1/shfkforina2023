@@ -22,7 +22,7 @@ export default function Navigation() {
     <>
       <div className="w-full h-6 bg-red-950"></div>
       <div className="container shadow-y-md">
-        <div className="w-auto py-5 mx-3 sm:mx-10 flex flex-row justify-between flex-wrap">
+        <div className="w-auto py-5 md:mx-3 sm:mx-10 flex flex-row justify-between flex-wrap">
           <div className="flex w-full md:w-1/3 flex-row py-3 justify-between">
             <div className="w-full">
               <Link href={'/'}>

@@ -13,10 +13,22 @@ export default function Layout({ children, title = null }) {
       <Head>
         <title>{title ? `SH.Q.K Forina - ${title}` : 'SH.Q.K Forina'}</title>
 
-        {/* Favicons */}
-        <link rel="icon" href="/favicons/favicon-32x-32" sizes="32x32" />
-        <link rel="icon" href="/favicons/android-chrome-192x192.png" sizes="192x192" />
-        <link rel="icon" href="/favicons/android-chrome-256x256.png" sizes="228x228" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+        <meta property="og:image" content="/MetaOg.png"></meta>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="/favicon/android-chrome-192x192.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="256x256"
+          href="/favicon/android-chrome-256x256.png"
+        />
       </Head>
       <div className={`font-sans antialiased flex flex-col ${dev ? 'debug-screens' : ''}`}>
         <Navigation />

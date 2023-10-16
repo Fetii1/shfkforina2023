@@ -1,8 +1,23 @@
-import { cardData } from 'content/home'
-
 import Card from '@/components/Card'
 
 export default function CardSection() {
+  const cardData = [
+    {
+      src: '/svg/hat-image.svg',
+      text: 'Mësim Bashkëkohor',
+      className: 'bg-blue-950',
+    },
+    {
+      src: '/svg/book-image.svg',
+      text: 'Bibliotekë',
+      className: 'bg-red-950',
+    },
+    {
+      src: '/svg/ball-image.svg',
+      text: 'Fushë Sporti',
+      className: 'bg-yellow-950',
+    },
+  ]
   return (
     <div className="flex flex-col justify-center container mx-auto md:h-1 md:items-end md:z-10 md:gap-5 md:flex-row">
       {cardData.map((props, index) => (
