@@ -7,13 +7,11 @@ import Content from '@/components/Content'
 export default function AboutSection() {
   return (
     <div className="container pt-36">
-      <div className="w-full flex justify-center">
-        <p className="text-3xl font-bold md:text-5xl md:mb-12 mb-6 pt-10 border-b-4 pb-3 border-blue-950">
-          Rreth Nesh
-        </p>
-      </div>
+      <p className="text-3xl mx-auto w-max font-bold md:text-5xl md:mb-12 mb-6 pt-10 border-b-4 pb-3 border-blue-950">
+        Rreth Nesh
+      </p>
       <div className="md:mt-10 mt-2 flex flex-col lg:flex-row">
-        <div className="w-full translate-y-5 lg:text-left flex flex-col text-center px-3 md:px-10 md:lg-0">
+        <div className="w-full translate-y-5 lg:text-left flex flex-col text-sm text-center px-3 md:px-10">
           <Content>
             Shkolla fillore në fshatin Forinë ka filluar të funksionoj në vitin 2006, shkollë kjo e
             cila ka funksionuar shumë vite më parë por për një kohë të gjatë ka qenë pasive.
@@ -34,7 +32,7 @@ export default function AboutSection() {
         </div>
         <div className="w-full md:my-0 my-10 flex justify-center">
           <div
-            className="w-auto flex lg:justify-center lg:translate-x-0 lg:translate-y-0 translate-x-5 translate-y-5 md:ml-6 md:mt-7"
+            className="w-auto flex lg:justify-center translate-x-5 translate-y-5"
             style={{
               backgroundImage: `url("../img/lines.png")`,
               backgroundRepeat: 'no-repeat',

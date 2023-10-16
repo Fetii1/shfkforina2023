@@ -7,7 +7,7 @@ export default function PlanProgramSection() {
     <>
       <div className="container mx-auto flex flex-col items-center my-10">
         <Image
-          className="w-1/2 h-96 object-cover"
+          className="h-[25rem] w-[43rem] object-cover"
           src="/img/12.jpeg"
           width={500}
           height={500}

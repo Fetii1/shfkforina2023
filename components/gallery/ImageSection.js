@@ -16,7 +16,7 @@ export default function ImageSection() {
               width={image.width}
               height={image.height}
               alt={image.alt}
-              className="h-80 object-center -translate-x-3 w-full object-cover -translate-y-3"
+              className="h-64 object-center -translate-x-3 w-full object-cover -translate-y-3"
             />
           </div>
         ))}
