@@ -12,10 +12,10 @@ export default function Layout({ children, title = null }) {
     <>
       <Head>
         <title>{title ? `SH.Q.K Forina - ${title}` : 'SH.Q.K Forina'}</title>
-
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+        <link rel="icon" sizes="180x180" href="/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x-32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
         <meta property="og:image" content="/MetaOg.png"></meta>
         <link
           rel="icon"
