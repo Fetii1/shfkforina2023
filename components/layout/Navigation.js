@@ -25,7 +25,7 @@ export default function Navigation() {
         <div className="w-auto py-5 md:mx-3 sm:mx-10 flex flex-row justify-between flex-wrap">
           <div className="flex w-full md:w-1/3 flex-row py-3 justify-between">
             <div className="w-full">
-              <Link href={'/'}>
+              <Link href="/">
                 <p className="font-bold text-gray-800 text-2xl pl-5">SH.Q.K Forina</p>
               </Link>
             </div>

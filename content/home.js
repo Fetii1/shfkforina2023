@@ -115,7 +115,7 @@ export const gallery = [
   },
 ]
 
-export const homeImages = [
+export const photos = [
   {
     src: '/img/1.jpeg',
     width: '500',
@@ -142,7 +142,7 @@ export const homeImages = [
   },
 ]
 
-export const programdata = [
+export const programs = [
   {
     text: 'Plan Programi Vjetor',
     href: '/documents/Planprogrami-Vjetor-2023-2024-Forinë-SHQIP.doc',

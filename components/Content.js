@@ -13,7 +13,7 @@ export default function Content({ children, hasImage, className }) {
         />
       )}
       <div className="max-w-2xl">
-        <p className="md:px-2 md:text-lg text-gray-600">{children}</p>
+        <p className="md:mx-2 md:text-lg text-gray-600">{children}</p>
       </div>
     </div>
   )

@@ -9,13 +9,13 @@ export default function HeroSection() {
         src="/img/curve.png"
         width={1920}
         height={1080}
-        alt={'wave svg'}
+        alt="wave svg"
       />
       <Image
         src="/img/hero-image.png"
         width={1920}
         height={1080}
-        alt={'Hero Image'}
+        alt="Hero Image"
         priority={true}
       />
     </div>
