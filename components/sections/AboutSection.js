@@ -25,7 +25,9 @@ export default function AboutSection() {
           </Content>
           <Link className="my-14 lg:my-5" href="/about">
             <Button
-              className={'hover:bg-blue-950 transition duration-200 hover:-translate-y-1'}
+              className={
+                'hover:bg-blue-950 font-bold transition duration-200 ml-0 lg:ml-3 hover:-translate-y-1'
+              }
               text="Lexo më shumë"
             />
           </Link>

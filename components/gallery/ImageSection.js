@@ -5,18 +5,18 @@ import React from 'react'
 export default function ImageSection() {
   return (
     <div className="container">
-      <div className="grid px-3 mt-20 md:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-20 w-full">
+      <div className="grid px-3 mt-20 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-20">
         {gallery.map((image, index) => (
           <div
             key={index}
-            className="translate-x-3 translate-y-3 md:translate-x-0 md:translate-y-0 h-full w-full bg-blue-950"
+            className="translate-x-3 translate-y-3 md:translate-x-0 md:translate-y-0 bg-blue-950"
           >
             <Image
               src={image.src}
               width={image.width}
               height={image.height}
               alt={image.alt}
-              className="h-64 object-center -translate-x-3 w-full object-cover -translate-y-3"
+              className="h-64 object-center -translate-x-3 object-cover -translate-y-3"
             />
           </div>
         ))}

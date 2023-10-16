@@ -23,7 +23,7 @@ function GallerySection() {
           <ImageComp />
           <Link className="mt-16 mb-24" href="/gallery">
             <Button
-              className={'hover:bg-blue-950 transition duration-200 hover:-translate-y-1'}
+              className={'hover:bg-blue-950 font-bold transition duration-200 hover:-translate-y-1'}
               text="Më shumë"
             />
           </Link>
