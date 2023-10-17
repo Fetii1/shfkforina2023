@@ -15,7 +15,7 @@ export default function NotFound() {
         <Link href="/">
           <Button
             className="w-fit transition duration-150 hover:-translate-y-1 hover:bg-blue-950"
-            text={'Kthehu mbrapa'}
+            text="Kthehu mbrapa"
           />
         </Link>
       </div>

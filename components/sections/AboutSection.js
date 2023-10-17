@@ -6,11 +6,11 @@ import Content from '@/components/Content'
 
 export default function AboutSection() {
   return (
-    <div className="container pt-36">
-      <p className="text-3xl mx-auto w-max font-bold md:text-5xl md:mb-12 mb-6 pt-10 border-b-4 pb-3 border-blue-950">
+    <div className="container pt-32">
+      <p className="text-3xl mx-auto w-max font-bold md:text-5xl lg:mb-24 md:mb-12 mb-6 pt-10 border-b-4 pb-6 border-blue-950">
         Rreth Nesh
       </p>
-      <div className="md:mt-10 mt-2 flex flex-col lg:flex-row">
+      <div className="flex flex-col lg:flex-row">
         <div className="w-full translate-y-5 lg:text-left flex flex-col text-sm text-center px-3 md:px-10">
           <Content>
             Shkolla fillore në fshatin Forinë ka filluar të funksionoj në vitin 2006, shkollë kjo e
