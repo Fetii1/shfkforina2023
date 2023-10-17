@@ -24,15 +24,12 @@ module.exports = {
         },
         yellow: {
           ...config.colors.yellow,
-          950: '#FAF8D4',
+          950: '#E4A40F',
+          1000: '#FAF8D4',
         },
         blue: {
           ...config.colors.blue,
-          950: '#5856D6',
-        },
-        orange: {
-          ...config.colors.orange,
-          950: '#FF971D',
+          950: '#035392',
         },
       },
     },

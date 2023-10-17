@@ -1,38 +1,20 @@
-import React from 'react'
+import { programs } from 'content/home'
 
-import Button from './Button'
+import Button from '@/components/Button'
 
 export default function Tabela() {
-  const data = [
-    {
-      text: 'Plan Programi',
-    },
-    {
-      text: 'Vetëevaluimi',
-    },
-    {
-      text: 'Raport Vjetor',
-    },
-    {
-      text: 'програма',
-    },
-    {
-      text: 'Самоевалуација',
-    },
-    {
-      text: 'Годишна програма',
-    },
-  ]
-
   return (
-    <div className="container">
-      <div className="w-full grid justify-items-center sm:grid-cols-2 gap-5 md:grid-cols-3">
-        {data.map((btn, index) => (
-          <Button
-            key={index}
-            text={btn.text}
-            className={'hover:bg-blue-950 transition ease-in-out duration-200 hover:-translate-y-1'}
-          />
+    <div className="max-w-4xl mx-auto">
+      <div className="grid place-content-stretch sm:grid-cols-2 gap-10 md:gap-5 md:grid-cols-3">
+        {programs.map(({ href, download, text }, index) => (
+          <a key={index} href={href} download={download}>
+            <Button
+              text={text}
+              className={
+                'hover:bg-blue-950 text-sm lg:text-lg transition ease-in-out duration-200 hover:-translate-y-1 w-full'
+              }
+            />
+          </a>
         ))}
       </div>
     </div>

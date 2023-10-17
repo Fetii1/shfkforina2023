@@ -1,9 +1,8 @@
 import Image from 'next/image'
-import React from 'react'
 
 export default function Content({ children, hasImage, className }) {
   return (
-    <div className="max-w-4xl flex flex-col items-center mx-auto h-auto">
+    <div className="max-w-4xl flex flex-col items-center mx-auto">
       {hasImage && (
         <Image
           className={className}
@@ -13,7 +12,9 @@ export default function Content({ children, hasImage, className }) {
           alt="About Us Image"
         />
       )}
-      <p className="px-5 md:px-2 text-sm md:text-lg text-gray-600">{children}</p>
+      <div className="max-w-2xl">
+        <p className="md:mx-2 md:text-lg text-gray-600">{children}</p>
+      </div>
     </div>
   )
 }

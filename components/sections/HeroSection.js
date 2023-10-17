@@ -1,6 +1,5 @@
 /* eslint-disable jsx-a11y/alt-text */
 import Image from 'next/image'
-import React from 'react'
 
 export default function HeroSection() {
   return (
@@ -10,9 +9,15 @@ export default function HeroSection() {
         src="/img/curve.png"
         width={1920}
         height={1080}
-        alt={'wave svg'}
+        alt="wave svg"
       />
-      <Image src="/img/hero-image.png" width={1920} height={1080} alt={'Hero Image'} />
+      <Image
+        src="/img/hero-image.png"
+        width={1920}
+        height={1080}
+        alt="Hero Image"
+        priority={true}
+      />
     </div>
   )
 }

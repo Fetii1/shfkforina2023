@@ -1,8 +1,6 @@
-import React from 'react'
-
-import ImageSection from '@/components/gallery/ImageSection'
 import Header from '@/components/Header'
 import Layout from '@/components/layout/Layout'
+import ImageSection from '@/components/sections/ImageSection'
 
 export default function Gallery() {
   return (

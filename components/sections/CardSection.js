@@ -1,9 +1,7 @@
-import React from 'react'
-
-import Card from '../Card'
+import Card from '@/components/Card'
 
 export default function CardSection() {
-  const items = [
+  const cards = [
     {
       src: '/svg/hat-image.svg',
       text: 'Mësim Bashkëkohor',
@@ -17,14 +15,13 @@ export default function CardSection() {
     {
       src: '/svg/ball-image.svg',
       text: 'Fushë Sporti',
-      className: 'bg-orange-950',
+      className: 'bg-yellow-950',
     },
   ]
-
   return (
-    <div className="flex flex-col justify-center w-auto h-auto md:h-28 lg:h-20 xl:h-0 xl:-mt-8 md:items-end mx-3 md:z-10 lg:mx-20 md:space-x-4 md:flex-row">
-      {items.map((item, index) => (
-        <Card key={index} src={item.src} text={item.text} className={item.className} />
+    <div className="flex flex-col justify-center container mx-auto md:h-1 md:items-end md:z-10 md:gap-5 md:flex-row">
+      {cards.map((props, index) => (
+        <Card key={index} src={props.src} text={props.text} className={props.className} />
       ))}
     </div>
   )

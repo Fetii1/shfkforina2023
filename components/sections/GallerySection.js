@@ -1,12 +1,11 @@
 import Link from 'next/link'
-import React from 'react'
 
-import Button from '../Button'
-import ImageComp from '../ImageComp'
+import Button from '@/components/Button'
+import ImageSection from '@/components/sections/ImageSection'
 
 function GallerySection() {
   return (
-    <div className="w-full mt-10 h-auto">
+    <div className="w-full pt-24 md:pt-56">
       <div
         className="w-full h-5 -mb-1 sm:mb-0"
         style={{
@@ -14,17 +13,17 @@ function GallerySection() {
           backgroundRepeat: 'repeat-x',
         }}
       ></div>
-      <div className="bg-yellow-950 h-auto">
-        <div className="w-full flex justify-center h-auto">
-          <p className="text-3xl font-bold md:text-5xl pt-10 border-b-4 md:pt-10 pb-3 border-orange-950">
+      <div className="bg-yellow-1000">
+        <div className="w-full flex justify-center">
+          <p className="text-4xl font-bold md:text-5xl border-b-4 pb-3 mt-24 mb-16 border-yellow-950">
             Galeria
           </p>
         </div>
-        <div className="container flex flex-col items-center my-20">
-          <ImageComp />
-          <Link className="mt-20" href="/gallery">
+        <div className="container flex flex-col items-center">
+          <ImageSection isHomepage={true} />
+          <Link className="mt-16 mb-24" href="/gallery">
             <Button
-              className={'hover:bg-blue-950 transition duration-200 hover:-translate-y-1'}
+              className={'hover:bg-blue-950 font-bold transition duration-200 hover:-translate-y-1'}
               text="Më shumë"
             />
           </Link>
