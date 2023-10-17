@@ -39,7 +39,7 @@ const ImageComp = () => {
             width={image.width}
             height={image.height}
             alt={image.alt}
-            className="h-64 w-full object-center -translate-x-3 object-cover -translate-y-3"
+            className="h-64 object-center -translate-x-3 object-cover -translate-y-3"
           />
         </div>
       ))}

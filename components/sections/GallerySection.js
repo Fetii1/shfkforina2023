@@ -3,9 +3,11 @@ import Link from 'next/link'
 import Button from '@/components/Button'
 import ImageSection from '@/components/sections/ImageSection'
 
+import SectionTitle from '../SectionTitle'
+
 function GallerySection() {
   return (
-    <div className="w-full pt-24 md:pt-56">
+    <div className="w-full pt-24 md:pt-32">
       <div
         className="w-full h-5 -mb-1 sm:mb-0"
         style={{
@@ -14,19 +16,19 @@ function GallerySection() {
         }}
       ></div>
       <div className="bg-yellow-1000">
-        <div className="w-full flex justify-center">
-          <p className="text-4xl font-bold md:text-5xl border-b-4 pb-3 mt-24 mb-16 border-yellow-950">
-            Galeria
-          </p>
-        </div>
+        <SectionTitle text="Galeria" className="border-yellow-950" />
         <div className="container flex flex-col items-center">
           <ImageSection isHomepage={true} />
-          <Link className="mt-16 mb-24" href="/gallery">
-            <Button
-              className={'hover:bg-blue-950 font-bold transition duration-200 hover:-translate-y-1'}
-              text="Më shumë"
-            />
-          </Link>
+          <div className=" w-full flex justify-center items-center">
+            <Link className="my-20" href="/gallery">
+              <Button
+                className={
+                  'hover:bg-blue-950 font-bold transition duration-200 hover:-translate-y-1'
+                }
+                text="Më shumë"
+              />
+            </Link>
+          </div>
         </div>
         <div
           className="w-full bg-white h-5 -mt-1 sm:mt-0"

@@ -3,15 +3,14 @@ import Link from 'next/link'
 
 import Button from '@/components/Button'
 import Content from '@/components/Content'
+import SectionTitle from '@/components/SectionTitle'
 
 export default function AboutSection() {
   return (
     <div className="container pt-32">
-      <p className="text-3xl mx-auto w-max font-bold md:text-5xl lg:mb-24 md:mb-12 mb-6 pt-10 border-b-4 pb-6 border-blue-950">
-        Rreth Nesh
-      </p>
+      <SectionTitle text="Rreth Nesh" className="border-blue-950" />
       <div className="flex flex-col lg:flex-row">
-        <div className="w-full translate-y-5 lg:text-left flex flex-col text-sm text-center px-3 md:px-10">
+        <div className="w-full translate-y-5 lg:text-left flex flex-col text-base text-center px-3 md:px-10">
           <Content>
             Shkolla fillore në fshatin Forinë ka filluar të funksionoj në vitin 2006, shkollë kjo e
             cila ka funksionuar shumë vite më parë por për një kohë të gjatë ka qenë pasive.
