@@ -28,7 +28,7 @@ function LightBox({ images, className }) {
           </div>
         ))}
       </div>
-      <FsLightbox toggler={toggler} sources={[images[productIndex].src]} key={productIndex} />
+      <FsLightbox toggler={toggler} sources={[images[productIndex].src]} />
     </>
   )
 }
