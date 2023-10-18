@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 
 function LightBox({ images, className }) {
   const [toggler, setToggler] = useState(false)
+  const [productIndex, setProductIndex] = useState(0)
 
   return (
     <>
@@ -19,12 +20,15 @@ function LightBox({ images, className }) {
               width={image.width}
               height={image.height}
               alt={'GalleryImage' + index}
-              onClick={() => setToggler(!toggler)}
+              onClick={() => {
+                setToggler(!toggler)
+                setProductIndex(index)
+              }}
             />
           </div>
         ))}
       </div>
-      <FsLightbox toggler={toggler} sources={images.map((image) => image.src)} />
+      <FsLightbox toggler={toggler} sources={[images[productIndex].src]} key={productIndex} />
     </>
   )
 }
