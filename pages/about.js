@@ -1,4 +1,3 @@
-// import AboutText from '@/components/sections/About/AboutText'
 import Content from '@/components/Content'
 import Header from '@/components/Header'
 import Layout from '@/layout/Layout'
@@ -6,8 +5,8 @@ import Layout from '@/layout/Layout'
 export default function About() {
   return (
     <Layout title="About">
-      <Header text="Rreth Nesh" />
-      <div className="container">
+      <Header>Rreth Nesh</Header>
+      <div className="container mt-10">
         <Content className="py-10 text-sm md:text-lg" hasImage={true} src="/img/1.jpeg">
           Shkolla fillore në fshatin Forinë ka filluar të funksionoj në vitin 2006, shkollë kjo e
           cila ka funksionuar shumë vite më parë por për një kohë të gjatë nuk ka funksionuar.

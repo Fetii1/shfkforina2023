@@ -5,7 +5,7 @@ import Layout from '@/layout/Layout'
 export default function Planprogrami() {
   return (
     <Layout title="Planprogrami">
-      <Header text="Planprogrami" />
+      <Header>Planprogrami</Header>
       <PlanProgramSection />
     </Layout>
   )

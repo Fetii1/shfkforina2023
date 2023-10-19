@@ -16,7 +16,7 @@ function GallerySection() {
         }}
       ></div>
       <div className="bg-yellow-1000">
-        <SectionTitle text="Galeria" className="border-yellow-950" />
+        <SectionTitle className="border-yellow-950">Galeria</SectionTitle>
         <div className="container flex flex-col items-center">
           <ImageSection isHomepage={true} />
           <div className=" w-full flex justify-center items-center">
