@@ -13,7 +13,7 @@ export default function PlanProgramSection() {
           height={500}
           alt="ShkollaForinë"
         />
-        <p className="text-base mt-8 px-5 md:px-0">
+        <p className="text-base mt-8 md:text-lg px-5 md:px-0">
           Plan programi, vetëevaluimi dhe orari mund të shkarkohen këtu.
         </p>
       </div>
