@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
         openGraph={{
           type: 'website',
           locale: 'en_EN',
-          url: '',
+          url: 'https://www.shfkforina.edu.mk/',
           site_name: 'SH.Q.K Forina',
           description: 'SH.Q.K Forinë',
         }}
