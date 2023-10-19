@@ -27,8 +27,9 @@ export default function AboutSection() {
               className={
                 'hover:bg-blue-950 font-bold transition duration-200 ml-0 lg:ml-3 hover:-translate-y-1'
               }
-              text="Lexo më shumë"
-            />
+            >
+              Lexo më shumë
+            </Button>
           </Link>
         </div>
         <div className="w-full md:my-0 my-10 flex justify-center">

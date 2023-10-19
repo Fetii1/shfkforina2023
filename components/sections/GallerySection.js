@@ -25,8 +25,9 @@ function GallerySection() {
                 className={
                   'hover:bg-blue-950 font-bold transition duration-200 hover:-translate-y-1'
                 }
-                text="Më shumë"
-              />
+              >
+                Më shumë
+              </Button>
             </Link>
           </div>
         </div>
