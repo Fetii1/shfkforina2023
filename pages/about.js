@@ -7,7 +7,12 @@ export default function About() {
     <Layout title="About">
       <Header>Rreth Nesh</Header>
       <div className="container mt-10">
-        <Content className="py-10 text-sm md:text-lg" hasImage={true} src="/img/1.jpeg">
+        <Content
+          className="py-10 text-sm md:text-lg"
+          hasImage={true}
+          src="/img/1.jpeg"
+          alt="ShkollaForinë"
+        >
           Shkolla fillore në fshatin Forinë ka filluar të funksionoj në vitin 2006, shkollë kjo e
           cila ka funksionuar shumë vite më parë por për një kohë të gjatë nuk ka funksionuar.
           Nxënësit deri në atë kohë kanë qenë të obliguar të ndjekin mësimin në shkollën fillore

@@ -4,7 +4,7 @@ import { Nunito } from 'next/font/google'
 import { DefaultSeo } from 'next-seo'
 
 const nunito = Nunito({
-  weight: ['500', '700'],
+  weight: ['400', '700'],
   subsets: ['latin'],
   variable: '--font-nunito',
 })
