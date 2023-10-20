@@ -45,8 +45,9 @@ export default function AboutSection() {
             <Image
               className="min-w-auto lg:max-w-lg -translate-y-5 md:-translate-x-5"
               src="/img/forina.png"
-              width={500}
-              height={500}
+              width={'500'}
+              height={'500'}
+              priority={false}
               alt={'ShkollaForina'}
             />
           </div>

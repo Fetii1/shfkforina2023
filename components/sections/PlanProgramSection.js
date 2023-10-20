@@ -11,6 +11,7 @@ export default function PlanProgramSection() {
           src="/img/12.jpeg"
           width={500}
           height={500}
+          priority={true}
           alt="ShkollaForinë"
         />
         <p className="text-base mt-8 md:text-lg px-5 md:px-0">
