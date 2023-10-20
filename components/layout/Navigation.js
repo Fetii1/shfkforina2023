@@ -37,6 +37,7 @@ export default function Navigation() {
               <div className="w-1/4 flex justify-end md:hidden pr-5">
                 <label htmlFor="menu-toggle" className="cursor-pointer">
                   <SVG
+                    aria-label="menu"
                     src="/svg/menu.svg"
                     className="fill-current text-black w-6 h-6"
                     onClick={() => setMenu(!menu)}

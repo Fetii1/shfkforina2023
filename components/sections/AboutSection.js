@@ -24,11 +24,12 @@ export default function AboutSection() {
           </Content>
           <Link className="mt-4 mb-20 lg:mb-0 lg:ml-3" href="/about">
             <Button
+              aria-labelledby="more"
               className={
                 'hover:bg-blue-950 font-bold transition duration-200 ml-0 lg:ml-3 hover:-translate-y-1'
               }
             >
-              Lexo më shumë
+              <p id="more">Lexo më shumë</p>
             </Button>
           </Link>
         </div>
