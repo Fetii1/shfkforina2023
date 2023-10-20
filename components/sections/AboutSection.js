@@ -32,16 +32,17 @@ export default function AboutSection() {
             </Button>
           </Link>
         </div>
-        <div className="w-full md:my-0 my-10 flex justify-center items-center">
+        <div className="w-full md:my-0 my-10 flex justify-center items-center md:translate-x-3">
           <div
-            className="w-auto flex lg:justify-center translate-x-5 translate-y-5"
+            className="w-auto flex lg:justify-center"
             style={{
               backgroundImage: `url("../img/lines.png")`,
               backgroundRepeat: 'no-repeat',
+              overflow: 'hidden',
             }}
           >
             <Image
-              className="min-w-auto lg:max-w-lg object-contain -translate-x-5 -translate-y-5"
+              className="min-w-auto lg:max-w-lg -translate-y-5 md:-translate-x-5"
               src="/img/forina.png"
               width={500}
               height={500}
