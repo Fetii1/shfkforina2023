@@ -6,7 +6,7 @@ function Card({ className, src, text }) {
       <div className={`${className} z-50 rounded-2xl`}>
         <div className="w-full h-72 flex flex-col items-center justify-evenly">
           <SVG src={src} width={100} height={100} />
-          <p className="text-lg w px-5 text-center md:text-2xl lg:text-3xl font-bold text-white">
+          <p className="text-lg px-5 text-center md:text-2xl lg:text-3xl font-bold text-white">
             {text}
           </p>
         </div>

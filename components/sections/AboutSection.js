@@ -3,12 +3,12 @@ import Link from 'next/link'
 
 import Button from '@/components/Button'
 import Content from '@/components/Content'
-import SectionTitle from '@/components/SectionTitle'
+import Title from '@/components/Title'
 
 export default function AboutSection() {
   return (
     <div className="container pt-16 md:pt-32">
-      <SectionTitle className="border-blue-950">Rreth Nesh</SectionTitle>
+      <Title className="border-blue-950">Rreth Nesh</Title>
       <div className="flex flex-col lg:flex-row">
         <div className="w-full lg:text-left flex flex-col text-base text-center px-3 md:px-10">
           <Content>
@@ -22,7 +22,7 @@ export default function AboutSection() {
             fillore “Përparimi” fsh. Çegran. Shkolla më 29 maj 2014 u pavarësua dhe mori emrin
             Shkolla Fillore “FORINA”.
           </Content>
-          <Link className="mt-4 mb-20 lg:mt-5 lg:mb-0 lg:ml-3" href="/about">
+          <Link className="mt-4 mb-20 lg:mb-0 lg:ml-3" href="/about">
             <Button
               className={
                 'hover:bg-blue-950 font-bold transition duration-200 ml-0 lg:ml-3 hover:-translate-y-1'

@@ -2,8 +2,7 @@ import Link from 'next/link'
 
 import Button from '@/components/Button'
 import ImageSection from '@/components/sections/ImageSection'
-
-import SectionTitle from '../SectionTitle'
+import Title from '@/components/Title'
 
 function GallerySection() {
   return (
@@ -16,10 +15,10 @@ function GallerySection() {
         }}
       ></div>
       <div className="bg-yellow-1000">
-        <SectionTitle className="border-yellow-950">Galeria</SectionTitle>
+        <Title className="border-yellow-950">Galeria</Title>
         <div className="container flex flex-col items-center">
           <ImageSection isHomepage={true} />
-          <div className=" w-full flex justify-center items-center">
+          <div className="w-full flex justify-center items-center">
             <Link className="my-20" href="/gallery">
               <Button
                 className={
