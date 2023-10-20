@@ -28,7 +28,22 @@ function LightBox({ images, className }) {
           </div>
         ))}
       </div>
-      <FsLightbox toggler={toggler} sources={[images[productIndex].src]} />
+      <FsLightbox
+        toggler={toggler}
+        sources={[
+          <div key={productIndex} className="w-screen h-screen">
+            <div className="w-auto h-full mx-3 relative">
+              <Image
+                alt={images[productIndex].alt}
+                className="object-contain"
+                fill={true}
+                src={images[productIndex].src}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+            </div>
+          </div>,
+        ]}
+      />
     </>
   )
 }
