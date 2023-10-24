@@ -24,7 +24,7 @@ export default function About() {
           Shkolla Fillore “FORINA”.
           <br />
           <br />
-          Shkolla në vitin 2014 ka numruar 321 nxënës ndërsa tani 260 me 19 paralele . Objekti i
+          Shkolla në vitin 2014 ka numruar 321 nxënës ndërsa tani 260 me 19 paralele. Objekti i
           shkollës është i ri, kryesisht i plotëson kushtet për realizimin normal të procesit
           edukativo-arsimor, me 12 klasa, bibliotekë, salla për edukatë fizike, gjithashtu dy
           kabinete me kushte optimale për realizimin e procesit edukativo-arsimor, për të cilët kanë
