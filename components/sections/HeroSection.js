@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function HeroSection() {
   return (
-    <div className="w-screen">
+    <div className="max-w-screen">
       <div className="w-full mx-auto relative">
         <Image
           className="absolute -bottom-1"
