@@ -11,12 +11,15 @@ export default function Layout({ children, title = null }) {
   return (
     <>
       <Head>
-        <title>{title ? `SH.Q.K Forina - ${title}` : 'SH.Q.K Forina'}</title>
+        <title>
+          {title
+            ? `${title} - SH.F.K Forina - Shkolla Fillore Komunale Forinë`
+            : 'SH.F.K Forina - Shkolla Fillore Komunale Forinë'}
+        </title>
         <link rel="icon" sizes="180x180" href="/favicon/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x-32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
-        <meta property="og:image" content="/MetaOg.png"></meta>
         <link
           rel="icon"
           type="image/png"

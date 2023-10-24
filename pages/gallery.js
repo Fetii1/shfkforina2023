@@ -5,7 +5,7 @@ import ImageSection from '@/components/sections/ImageSection'
 export default function Gallery() {
   return (
     <Layout title="Gallery">
-      <Header text="Galerija" />
+      <Header>Galerija</Header>
       <ImageSection />
     </Layout>
   )

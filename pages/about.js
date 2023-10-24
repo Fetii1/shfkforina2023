@@ -1,4 +1,3 @@
-// import AboutText from '@/components/sections/About/AboutText'
 import Content from '@/components/Content'
 import Header from '@/components/Header'
 import Layout from '@/layout/Layout'
@@ -6,9 +5,14 @@ import Layout from '@/layout/Layout'
 export default function About() {
   return (
     <Layout title="About">
-      <Header text="Rreth Nesh" />
-      <div className="container">
-        <Content className="py-10 text-sm md:text-lg" hasImage={true}>
+      <Header>Rreth Nesh</Header>
+      <div className="container mt-10">
+        <Content
+          className="py-10 text-sm md:text-lg"
+          hasImage={true}
+          src="/img/1.jpeg"
+          alt="ShkollaForinë"
+        >
           Shkolla fillore në fshatin Forinë ka filluar të funksionoj në vitin 2006, shkollë kjo e
           cila ka funksionuar shumë vite më parë por për një kohë të gjatë nuk ka funksionuar.
           Nxënësit deri në atë kohë kanë qenë të obliguar të ndjekin mësimin në shkollën fillore
@@ -20,7 +24,7 @@ export default function About() {
           Shkolla Fillore “FORINA”.
           <br />
           <br />
-          Shkolla në vitin 2014 ka numruar 321 nxënës ndërsa tani 260 me 19 paralele . Objekti i
+          Shkolla në vitin 2014 ka numruar 321 nxënës ndërsa tani 260 me 19 paralele. Objekti i
           shkollës është i ri, kryesisht i plotëson kushtet për realizimin normal të procesit
           edukativo-arsimor, me 12 klasa, bibliotekë, salla për edukatë fizike, gjithashtu dy
           kabinete me kushte optimale për realizimin e procesit edukativo-arsimor, për të cilët kanë

@@ -3,15 +3,14 @@ import Link from 'next/link'
 
 import Button from '@/components/Button'
 import Content from '@/components/Content'
+import Title from '@/components/Title'
 
 export default function AboutSection() {
   return (
-    <div className="container pt-32">
-      <p className="text-3xl mx-auto w-max font-bold md:text-5xl lg:mb-24 md:mb-12 mb-6 pt-10 border-b-4 pb-6 border-blue-950">
-        Rreth Nesh
-      </p>
+    <div className="container pt-16 md:pt-32">
+      <Title className="border-blue-950">Rreth Nesh</Title>
       <div className="flex flex-col lg:flex-row">
-        <div className="w-full translate-y-5 lg:text-left flex flex-col text-sm text-center px-3 md:px-10">
+        <div className="w-full lg:text-left flex flex-col text-base text-center px-3 md:px-10">
           <Content>
             Shkolla fillore në fshatin Forinë ka filluar të funksionoj në vitin 2006, shkollë kjo e
             cila ka funksionuar shumë vite më parë por për një kohë të gjatë ka qenë pasive.
@@ -23,28 +22,32 @@ export default function AboutSection() {
             fillore “Përparimi” fsh. Çegran. Shkolla më 29 maj 2014 u pavarësua dhe mori emrin
             Shkolla Fillore “FORINA”.
           </Content>
-          <Link className="my-14 lg:my-5" href="/about">
+          <Link className="mt-4 mb-20 lg:mb-0 lg:ml-3" href="/about">
             <Button
+              aria-labelledby="more"
               className={
                 'hover:bg-blue-950 font-bold transition duration-200 ml-0 lg:ml-3 hover:-translate-y-1'
               }
-              text="Lexo më shumë"
-            />
+            >
+              <p id="more">Lexo më shumë</p>
+            </Button>
           </Link>
         </div>
-        <div className="w-full md:my-0 my-10 flex justify-center">
+        <div className="w-full md:my-0 my-10 flex justify-center items-center md:translate-x-3">
           <div
-            className="w-auto flex lg:justify-center translate-x-5 translate-y-5"
+            className="w-auto flex lg:justify-center"
             style={{
               backgroundImage: `url("../img/lines.png")`,
               backgroundRepeat: 'no-repeat',
+              overflow: 'hidden',
             }}
           >
             <Image
-              className="min-w-auto lg:max-w-lg object-contain -translate-x-5 -translate-y-5"
+              className="min-w-auto lg:max-w-lg -translate-y-5 md:-translate-x-5"
               src="/img/forina.png"
-              width={500}
-              height={500}
+              width={'500'}
+              height={'500'}
+              priority={false}
               alt={'ShkollaForina'}
             />
           </div>

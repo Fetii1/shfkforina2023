@@ -4,7 +4,7 @@ import { Nunito } from 'next/font/google'
 import { DefaultSeo } from 'next-seo'
 
 const nunito = Nunito({
-  weight: ['500', '700'],
+  weight: ['400', '700'],
   subsets: ['latin'],
   variable: '--font-nunito',
 })
@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
         openGraph={{
           type: 'website',
           locale: 'en_EN',
-          url: '',
+          url: 'https://www.shfkforina.edu.mk/',
           site_name: 'SH.Q.K Forina',
           description: 'SH.Q.K Forinë',
         }}
