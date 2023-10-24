@@ -8,7 +8,7 @@ function LightBox({ images, className }) {
 
   return (
     <>
-      <div className={`${className} grid px-3 mt-20 md:grid-cols-2 gap-12 lg:gap-20`}>
+      <div className={`${className} grid px-3 md:grid-cols-2 gap-12 lg:gap-20`}>
         {images.map(({ src, width, height }, index) => (
           <div
             key={index}

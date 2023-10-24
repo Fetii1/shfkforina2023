@@ -4,7 +4,7 @@ import Button from '@/components/Button'
 
 export default function Tabela() {
   return (
-    <div className="container">
+    <div className="container lg:max-w-5xl">
       <div className="grid place-content-stretch sm:grid-cols-2 gap-7 md:gap-5 md:grid-cols-2 lg:grid-cols-3">
         {programs.map(({ href, download, text }, index) => (
           <a key={index} href={href} download={download}>

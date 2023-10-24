@@ -2,7 +2,7 @@ import SVG from 'react-inlinesvg'
 
 function Card({ className, src, text }) {
   return (
-    <div className="w-full my-2 md:-mb-10 lg:-mb-16 xl:-mb-1 md:max-w-xs">
+    <div className="w-full my-2 md:-mb-10 lg:-mb-16 xl:-mb-1 md:max-w-xs 2xl:max-w-xl">
       <div className={`${className} z-50 rounded-2xl`}>
         <div className="w-full h-56 lg:h-72 flex flex-col items-center justify-evenly">
           <SVG src={src} width={100} height={100} />

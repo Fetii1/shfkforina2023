@@ -5,7 +5,7 @@ import Tabela from '@/components/Tabela'
 export default function PlanProgramSection() {
   return (
     <>
-      <div className="container mx-auto flex flex-col items-center my-10">
+      <div className="flex flex-col items-center my-10">
         <Image
           className="h-[25rem] w-[43rem] object-cover"
           src="/img/12.jpeg"

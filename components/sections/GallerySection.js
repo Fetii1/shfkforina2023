@@ -16,7 +16,7 @@ function GallerySection() {
       ></div>
       <div className="bg-yellow-1000">
         <Title className="border-yellow-950">Galeria</Title>
-        <div className="container flex flex-col items-center">
+        <div className="container flex flex-col pt-10 items-center">
           <ImageSection isHomepage={true} />
           <div className="w-full flex justify-center items-center">
             <Link className="my-20" href="/gallery">
