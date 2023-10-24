@@ -10,7 +10,7 @@ const NavItem = ({ children, href }) => {
       <Link
         className={`${
           router.asPath === href ? 'text-blue-800' : 'text-gray-800'
-        } block hover:text-blue-800 py-4 md:py-0 border-b  lg:text-lg border-gray-200 md:border-b-0 md:border-transparent`}
+        } block hover:text-blue-800 py-4 md:py-0 border-b lg:text-lg border-gray-200 md:border-b-0 md:border-transparent`}
         href={href}
       >
         {children}
